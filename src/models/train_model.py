@@ -68,7 +68,7 @@ def find_best_model_with_params(X_train, y_train, X_test, y_test):
 
         model = XGBRegressor(**params)
         model.fit(X_train, y_train)
-        mlflow.sklearn.log_model(model, 'model')  # persist model with mlflow for registering
+        mlflow.sklearn.log_model(model, 'model') # persist model with mlflow for registering
     return model
 
 
