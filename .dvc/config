@@ -1,0 +1,4 @@
+[core]
+    remote = dvc-remote-loc
+['remote "dvc-remote-loc"']
+    url = ../tmp
