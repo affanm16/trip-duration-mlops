@@ -39,7 +39,8 @@ def find_best_model_with_params(X_train, y_train, X_test, y_test):
         y_pred = model.predict(X_test)
 
         model_rmse = mean_squared_error(y_test, y_pred)
-        mlflow.log_metric('RMSE', model_rmse)  # record actual metric with mlflow run
+        mlflow.log_metric('RMSE', model_rmse)  
+        # record actual metric with mlflow run
         loss = model_rmse  
         return {'loss': loss, 'status': STATUS_OK}
 

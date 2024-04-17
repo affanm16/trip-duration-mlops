@@ -1,0 +1,15 @@
+artifact_uri: file:///D:/trip-duration-mlops/mlruns/0/c9e4084551104f2a91a3fa1c2e823e66/artifacts
+end_time: 1713371380078
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: c9e4084551104f2a91a3fa1c2e823e66
+run_name: XGBRegressor
+run_uuid: c9e4084551104f2a91a3fa1c2e823e66
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1713371356447
+status: 3
+tags: []
+user_id: moham
