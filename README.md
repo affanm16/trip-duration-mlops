@@ -1,7 +1,7 @@
 trip-duration
 ==============================
 
-An end to end MLOPS project for NYC taxi trip duration challenge(kaggle).24748
+An end to end MLOPS project for NYC taxi trip duration challenge(kaggle).
 
 Project Organization
 ------------
